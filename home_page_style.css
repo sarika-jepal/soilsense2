@@ -4,7 +4,7 @@
 }
 
 .main{
-    width: 100vw;
+    width: 100%;
     background-image: url('garden.jpg');
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.5);
@@ -14,6 +14,7 @@
     background-attachment: fixed;
     height: 100vh;
 }
+
 
 .navbar{
     width: 1200px;
@@ -198,3 +199,9 @@ ul li a:hover{
     text-align: center;
 }
 
+@media (max-width: 915px) {
+    .main{
+        width: 400%;
+    }
+    
+}
