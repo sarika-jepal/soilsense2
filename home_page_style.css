@@ -4,13 +4,13 @@
 }
 
 .main{
-    width: 100vwx;
+    width: 100vw;
     background-image: url(garden.jpg);
+    background-size: cover;
     background-color: rgba(255, 255, 255, 0.5);
     background-blend-mode: overlay;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
     height: 100vh;
 }
