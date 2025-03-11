@@ -74,7 +74,7 @@ ul li a:hover{
 
 /*change float to right here if search box is overlapping menu*/
 .search{
-    width: 300px;
+    width: 330px;
     float: right;
     margin-left: 270px;
 }
@@ -126,17 +126,7 @@ ul li a:hover{
 .srch:focus{
     outline: none;
 }
-body{
-	margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('garden.jpg');
-	background-color: rgba(255, 255, 255, 0.3);
-    background-blend-mode: overlay;
-    background-size: cover;
-}
+
 .container{
 	width: 500px;
 	padding: 30px;
