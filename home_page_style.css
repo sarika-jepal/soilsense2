@@ -198,9 +198,3 @@ ul li a:hover{
     text-align: center;
 }
 
-@media (max-width: 915px) {
-    .main{
-        width: 400%;
-    }
-    
-}
