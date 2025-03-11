@@ -5,6 +5,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 14px;
 }
+
 .main{
     width: 100%;
     background-image: url('garden.jpg');
@@ -174,4 +175,11 @@ textarea{
     background: transparent;
     color: rgb(0, 0, 0);
     outline: 1px solid #000000;
+}
+
+@media (max-width: 915px) {
+    .main{
+        width: 400%;
+    }
+    
 }
