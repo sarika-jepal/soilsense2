@@ -4,12 +4,14 @@
 }
 
 .main{
-    width: 100%;
+    width: 100vw;
     background-image: url(garden.jpg);
     background-color: rgba(255, 255, 255, 0.5);
     background-blend-mode: overlay;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -194,4 +196,11 @@ ul li a:hover{
     padding-top: 15px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+@media (max-width: 915px) {
+    .main{
+        width: 400%;
+    }
+    
 }
